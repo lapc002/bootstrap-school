@@ -10,7 +10,7 @@ body {
 }
 
 .semibold1 {
-  font: 28px;
+  font-size: 28px;
   margin: 0px 0px 8px;
   font-weight: 600;
   margin-top: 0;
@@ -31,8 +31,6 @@ body {
 .section1-part1 {
   margin: 48px 0px 0px 0px;
   padding: 24px 48px 24px 24px;
-  width: 445px;
-  height: 397px;
 }
 
 p {
@@ -45,7 +43,6 @@ p {
   background-color: #f8f9fa;
   padding: 12px 20px;
   border-radius: 0.5rem;
-  width: 445px;
 }
 
 .highlight {
@@ -61,7 +58,6 @@ p {
 .section1-part2 {
   margin: 48px 0px 0px;
   padding: 24px 48px 24px 24px;
-  width: 445px;
   height: 397px;
   border-left: 1px solid #dee2e6;
 }
@@ -70,7 +66,6 @@ p {
   background-color: #f8f9fa;
   padding: 12px 20px;
   border-radius: 0.5rem;
-  width: 445px;
 }
 
 .language-html {
@@ -86,7 +81,11 @@ p {
   margin: 0px 220px 48px 220px;
   padding: 0px 24px 0px 24px;
   text-align: center !important;
-  width: 590px;
+}
+
+.icons-p2 {
+  display: flex;
+  align-items: center;
 }
 
 h4.semibold2 {
@@ -129,16 +128,12 @@ p.general-info {
   font: 16px;
   margin: 48px 0px 0px;
   padding: 0px 24px;
-  width: 450px;
-  height: 396px;
 }
 
 .section4-p2 {
   font: 16px;
   margin: 48px 0px 0px;
   padding: 0px 24px;
-  width: 450px;
-  height: 396px
 }
 
 .chroma, .chroma2 {
