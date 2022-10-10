@@ -4,7 +4,7 @@
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  margin-left: 100px;
+  margin-left: 120px;
   font-size: 17px;
 }
 h2 {
@@ -17,39 +17,10 @@ h2 {
   height: 300px;
 }
 .colortext {
-  color: #d63384;
-}
-.arrow-1 {
-  display: inline;
-}
-.V-read_installation-item-link {
-  text-decoration:underline;
-}
-.flex-button {
-  display: flex;
-}
-.dropdown {
- display: flex;
- flex-wrap: wrap;
- text-align: center;
- justify-content: start;
- background-color: #0d6efd;
- color: white;
- border: none;
- border-radius: 10px;
- padding: 15px 32px;
- font-size: 16px;
-}
-.triangle-down {
-  margin: 5px;
-  width: 0;
-	height: 0;
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
-  border-top: 6px solid white;
+  color: MediumVioletRed;
 }
 h4 {
-  color: #0d6efd;
+  color: DodgerBlue;
   line-height: 1px;
 }
 .two-columns {
@@ -66,18 +37,18 @@ h4 {
   align-items: flex-start;
 }
 .main1 {
-  margin-right: 10px;
+  margin-right: 50px;
 }
 .color {
   color: grey;
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 480px) {
   .content-left {
-    width: 100%;
+    width: 80%;
   }
 }
 @media screen and (max-width: 630px) {
   .main {
-    width: 100%;
+    width: 80%;
   }
 }
