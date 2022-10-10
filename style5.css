@@ -104,6 +104,7 @@
     font-size: 20px;
     color: #0d6efd;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .arrow-1 {
@@ -290,8 +291,8 @@
     
   }
 
-  @media (max-width: 680px) {
-    .content-1-text{
+  @media (max-width: 1400px) {
+    .content-1-text {
       width: 100%;
     }
 
@@ -301,9 +302,9 @@
     }
   }
 
-  @media (max-width: 650px) {
+  @media (max-width: 1200px) {
     .row-1 {
-        width: 80%;
+        width: 100%;
     }
 
     .row-2 {
@@ -315,7 +316,7 @@
   }
 }
   
-  @media (max-width: 630px) {
+  @media (max-width: 992px) {
     .wraper {
         width: 100%;
         align-items: center;
@@ -338,9 +339,9 @@
     }
    }   
   
-  @media (max-width: 663px) {
+  @media (max-width: 767px) {
     .wraper {
-        width: 80%;
+        width: 100%;
   }
    .footer {
         width: 100%;
