@@ -1,8 +1,6 @@
 .container {
- display: flex;
- flex-direction: column;
- align-items: center ;
- justify-content: space-around;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 body {
@@ -33,12 +31,10 @@ body {
   padding: 24px 48px 24px 24px;
 }
 
-.text-item-in-par {
+p {
   font-size: 13px;
   font-weight: 350;
   line-height: 1.5;
-  margin: 0px 0px 16px;
-  padding: 0px 48px 0px 0px;
 }
 
 .highlight, .highlight2 {
@@ -53,8 +49,8 @@ body {
 
 .icon1, .icon2 {
   margin: 0px 0px 16px;
-  width: 1em;
-  height: 1em;
+  width: 31px;
+  height: 31px
 }
 
 .section1-part2 {
@@ -66,12 +62,17 @@ body {
 
 .language-html, .language-html2 {
   background-color: #f8f9fa;
-  padding: 12px 20px;
+  padding: 5px 20px;
   border-radius: 0.5rem;
 }
 
 .language-html {
   border-bottom: 10px solid white; 
+}
+
+p {
+  margin: 0px 0px 16px;
+  padding: 0px 48px 0px 0px;
 }
 
 .section2 {
@@ -82,13 +83,13 @@ body {
 
 .icons-p2 {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 h4.semibold2 {
 font-size: 18px;
-margin: 0px 0px 8px 0px;
 font-weight: 600;
+color: black ;
 }
 
 .section3 {
@@ -153,7 +154,7 @@ p.link {
     width: 350px;
   }
   
-  .text-item-in-par {
+  p {
     font-size: 17px;
     font-weight: 350;
     line-height: 1.5;
