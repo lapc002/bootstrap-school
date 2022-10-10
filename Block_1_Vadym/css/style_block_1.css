@@ -392,7 +392,7 @@ h2 {
   width: 816px;
 }
 
-.V-read_installation-wrapper {
+.v-read_installation-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -400,11 +400,11 @@ h2 {
   font-weight: 600;
 }
 
-.V-read_installation-item {
+.v-read_installation-item {
   border-bottom: rgba(13, 110, 253, 0.5) solid 2px;
 }
 
-.V-read_installation-item-link {
+.v-read_installation-item-link {
   color: #0d6efd;
 }
 
@@ -413,12 +413,12 @@ h2 {
   width: 24px;
 }
 
-.V-read_installation-item-link:hover {
+.v-read_installation-item-link:hover {
   color: rgb(8, 87, 202);
   transition-duration: 0.4s;
 }
 
-.V-read_installation-item:hover~.V-arr_right {
+.v-read_installation-item:hover~.V-arr_right {
   transform: translate(5px, 0px);
   transition-duration: 0.4s;
   filter: brightness(0.7);
@@ -553,12 +553,12 @@ h2 {
     text-align: left;
   }
 
-  .V-read_installation-wrapper {
+  .v-read_installation-wrapper {
     justify-content: flex-start;
     margin: 16px 0px 0px 0px;
   }
 
-  .V-read_installation-item {
+  .v-read_installation-item {
     border-bottom: #0d6efd solid 1px;
   }
 }
