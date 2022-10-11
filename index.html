@@ -97,22 +97,59 @@
 
   <div class="container">
     <div class="parent-section1">
-      <div class="section1-part1">
-        <div class="icon1"><img src="assets/images/icon-section1-part1.png" alt="icon-section1-part1"></div>
-        <h3 class="semibold1"> Install via package manager </h3>
-        <p class="p-s1-p1 text-item-in-par" >
-          Install Bootstrap’s source Sass and JavaScript files via npm, RubyGems, Composer, or Meteor. Package managed installs don’t include documentation or our full build scripts. You can also
-          <a href="https://github.com/twbs/bootstrap-npm-starter">use our npm template repo</a>
-           to quickly generate a Bootstrap project via npm.
-        </p>
-        <div class="highlight">
-          <p class="text-item-in-par">$ npm install bootstrap@5.2.1</p>
+         <div class="section1-part1">
+            <div class="icon1"><img src="assets/images/icon-section1-part1.png" alt="icon-section1-part1"></div>
+            <h3 class="semibold1"> Install via package manager </h3>
+            <p class="p-s1-p1" >
+              Install Bootstrap’s source Sass and JavaScript files via npm, RubyGems, Composer, or Meteor. Package managed installs don’t include documentation or our full build scripts. You can also
+              <a href="https://github.com/twbs/bootstrap-npm-starter">use our npm template repo</a>
+              to quickly generate a Bootstrap project via npm.
+            </p>
+            <div class="highlight">
+              <p>$ npm install bootstrap@5.2.1</p>
+            </div>
+            <div class="highlight2">
+              <p>$ gem install bootstrap -v 5.2.1</p>
+            </div>
+           
+            <p> 
+              <a href="https://getbootstrap.com/docs/5.2/getting-started/download/">Read our installation doc</a>
+              for more info and additional package managers. 
+            </p>
+          </div>
+          <div class="section1-part2">
+            <div class="icon2"><img src="assets/images/icon-section1-part2.png" alt="icon-section1-part2"></div>
+            <h3 class="semibold1"> Include via CDN </h3>
+            <p class="p-s1-p2" >
+               When you only need to include Bootstrap’s compiled CSS or JS, you can use 
+              <a href="https://www.jsdelivr.com/package/npm/bootstrap">jsDelivr</a>
+              . See it in action with our simple
+             <a href="https://getbootstrap.com/docs/5.2/getting-started/introduction/#quick-start">quick start</a>
+              ,or 
+              <a href="https://getbootstrap.com/docs/5.2/examples/">browse the examples</a>
+               to jumpstart your next project. You can also choose to include Popper and our JS 
+              <a href="https://getbootstrap.com/docs/5.2/getting-started/introduction/#separate">separately</a>
+              . 
+            </p>
+            <div class="language-html"> 
+               <p>
+                !-- CSS only -->
+                link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1
+               </p>
+            </div>
+            <div class="language-html2"> 
+              <p>
+                !-- JavaScript Bundle with Popper -->
+                script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1
+               </p>
+            </div>
+          </div>
         </div>
         <div class="highlight2">
-          <p class="text-item-in-par">$ gem install bootstrap -v 5.2.1</p>
+          <p>$ gem install bootstrap -v 5.2.1</p>
         </div>
            
-        <p class="text-item-in-par"> 
+        <p> 
           <a href="https://getbootstrap.com/docs/5.2/getting-started/download/">Read our installation doc</a>
            for more info and additional package managers. 
         </p>
@@ -120,7 +157,7 @@
       <div class="section1-part2">
         <div class="icon2"><img src="assets/images/icon-section1-part2.png" alt="icon-section1-part2"></div>
         <h3 class="semibold1"> Include via CDN </h3>
-        <p class="p-s1-p2 text-item-in-par" >
+        <p class="p-s1-p2" >
             When you only need to include Bootstrap’s compiled CSS or JS, you can use 
           <a href="https://www.jsdelivr.com/package/npm/bootstrap">jsDelivr</a>
            . See it in action with our simple
@@ -132,13 +169,13 @@
            . 
         </p>
         <div class="language-html"> 
-            <p class="text-item-in-par">
+            <p>
              !-- CSS only -->
              link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1
             </p>
         </div>
         <div class="language-html2"> 
-           <p class="text-item-in-par">
+           <p>
             !-- JavaScript Bundle with Popper -->
             script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1
            </p>
@@ -147,7 +184,7 @@
    </div>
    <div class="section2">
       <h4 class="semibold2">Read our getting started guides</h4>
-      <p class="text-item-in-par">
+      <p>
       Get a jump on including Bootstrap's source files in a new project with our official guides. 
       </p>
     <div class="icons-p2"><img src="assets/images/Icons-section2.png" alt="Icons-section1-part3"></div>
@@ -156,10 +193,10 @@
    <div class="section3">
       <div class="icon-p3"> <img src="assets/images/icon-section3.png" alt="Icon"></div>
         <h2 class="section3-name"> Customize everything with Sass</h2>
-        <p class="general-info text-item-in-par"> 
+        <p class="general-info"> 
           Bootstrap utilizes Sass for a modular and customizable architecture. Import only the components you need, enable global options like gradients and shadows, and write your own CSS with our variables, maps, functions, and mixins. 
         </p>
-        <p class="link text-item-in-par"> 
+        <p class="link"> 
           <a href="https://getbootstrap.com/docs/5.2/customize/overview/">Learn more about customizing →</a>
         </p>
     </div>
@@ -167,21 +204,21 @@
     <div class="parent-section4">
       <div class="section4-p1"> 
         <h3>Include all of Bootstrap’s Sass</h3>
-        <p class="text-item-in-par">
+        <p>
          Import one stylesheet and you're off to the races with every feature of our CSS.
         </p>
         <div class="chroma">
-          <p class="text-item-in-par"> // Variable overrides first
+          <p> // Variable overrides first
              $primary: #900;
              $enable-shadows: true;
              $prefix: "mo-";
           </p>
-          <p class="text-item-in-par">
+          <p>
             // Then import Bootstrap
              @import "../node_modules/bootstrap/scss/bootstrap";
           </p>
         </div>
-         <p class="text-item-in-par"> 
+         <p> 
             Learn more about our 
             <a href="https://getbootstrap.com/docs/5.2/customize/options/">global Sass options</a>
              . 
@@ -190,26 +227,26 @@
    
       <div class="section4-p2">
         <h3>Include what you need</h3>
-        <p class="text-item-in-par">The easiest way to customize Bootstrap—include only the CSS you need.</p>
+        <p>The easiest way to customize Bootstrap—include only the CSS you need.</p>
         <div class="chroma2">
-          <p class="text-item-in-par">
+          <p>
             // Functions first
            @import "../node_modules/bootstrap/scss/functions";
           </p>
-          <p class="text-item-in-par">
+          <p>
            // Variable overrides second
            $primary: #900;
            $enable-shadows: true;
            $prefix: "mo-";
           </p>
-          <p class="text-item-in-par">
+          <p>
             // Required Bootstrap imports
            @import "../node_modules/bootstrap/scss/variables";
            @import "../node_modules/bootstrap/scss/maps";
            @import "../node_modules/bootstrap/scss/mixins";
            @import "../node_modules/bootstrap/scss/root";
           </p>
-          <p class="text-item-in-par">
+          <p>
             // Optional components
            @import "../node_modules/bootstrap/scss/utilities";
            @import "../node_modules/bootstrap/scss/reboot";
@@ -219,7 +256,7 @@
            @import "../node_modules/bootstrap/scss/utilities/api";
           </p>
         </div>
-        <p class="text-item-in-par">
+        <p>
          Learn more about
           <a href="https://getbootstrap.com/docs/5.2/customize/sass/">using Borstrap with Sass</a>
           . 
@@ -229,7 +266,7 @@
   </div>
 
 
-  <!--Yevheniia-->
+<!--Yevheniia-->
   <div class="container">
    <div class="header-4"><img class="power" src="assets/images-4/power.png" alt="Вилка" />
      <h2><big>Powerful JavaScript plugins <br />without jQuery</big></h2>
@@ -387,9 +424,9 @@
         <a class="link-1" href="https://getbootstrap.com/">Get Bootstrap Icons</a>
         <img class="arrow-1" src="./assets/image_footer/arrow.jpg" alt="error">
       </div>
-      <div class="row-1__image">
-        <img src="./assets/image_footer/img-1.jpg" weight="500px" height="330px" alt="error">
-      </div>
+    </div>
+    <div class="row-1__image">
+      <img src="./assets/image_footer/img-1.jpg" weight="500px" height="330px" alt="error">
     </div>
   </section>
   <section class="row-2">
@@ -409,66 +446,71 @@
       <div class="row-__link">
         <a class="link-2" href="https://getbootstrap.com/">Browse Bootstrap Themes</a>
         <img class="arrow-2" src="./assets/image_footer/arrow.jpg" alt="error">
-        </div>
       </div>
-      <div class="row-2__image">
-        <img src="./assets/image_footer/img-2.jpg" width="500px" height="330px" alt="error">
-      </div>
-    </section>
-  </div>
+    </div>
+    <div class="row-2__image">
+      <img src="./assets/image_footer/img-2.jpg" width="500px" height="330px" alt="error">
+    </div>
+  </section>
   <div class="footer">
-    <div class="footer__designed-by">
-      <span>
-        <img src="./assets/image_footer/footer-icon.jpg" width="60px" height="50px">
-        <p>Bootstrap</p>
-        <p>Designed and built with all the love in the 
+    <div class="footer_block1">
+      <div class="footer__designed-by">
+        <span>
+          <img src="./assets/image_footer/footer-icon.jpg" width="60px" height="50px">
+          <p>Bootstrap</p>
+          <p>Designed and built with all the love in the 
             world by the Bootstrap team with the help 
             of our contributors.</p>
-        <p>Code licensed MIT, docs CC BY 3.0.</br>
+          <p>Code licensed MIT, docs CC BY 3.0.</br>
             Currently v5.2.1.</p>
-      </span>
+        </span>
+      </div>
     </div>
-    <div class="footer__links">
-      <span>
-        <strong>Links</strong></br>
-          Home</br>
-          Docs</br>
-          Examples</br>
-          Icons</br>
-          Themes</br>
-          Blog</br>
-          Swag Store
-      </span>
+    <div class="footer_block2">
+      <div class="footer__links">
+        <span>
+          <strong>Links</strong></br>
+            Home</br>
+            Docs</br>
+            Examples</br>
+            Icons</br>
+            Themes</br>
+            Blog</br>
+            Swag Store
+        </span>
+      </div>
+      <div class="footer__guides">
+        <span>
+          <strong>Guides</strong></br> 
+            Getting started</br>
+            Starter template</br>
+            Webpack</br>
+            Parcel</br>
+            Vite
+        </span>
+      </div>
     </div>
-    <div class="footer__guides">
-      <span>
-        <strong>Guides</strong></br> 
-          Getting started</br>
-          Starter template</br>
-          Webpack</br>
-          Parcel</br>
-          Vite
-      </span>
-    </div>
-    <div class="footer__projects">
-      <span>
-        <strong>Projects</strong> </br>
-          Bootstrap 5</br>
-          Bootstrap 4</br>
-          Icons</br>
-          RFS</br>
-          npm starter
-      </span>
-    </div>
-    <div class="footer__community">
-      <span>
-        <strong>Community</strong> </br>
-          Issues</br>
-          Discussions</br>
-          Corporate sponsors</br>
-          Open Collective</br>
-          Stack Overflow
-      </span>
+    <div class="footer_block3">
+      <div class="footer__projects">
+        <span>
+          <strong>Projects</strong> </br>
+            Bootstrap 5</br>
+            Bootstrap 4</br>
+            Icons</br>
+            RFS</br>
+            npm starter
+        </span>
+      </div>
+      <div class="footer__community">
+        <span>
+          <strong>Community</strong> </br>
+            Issues</br>
+            Discussions</br>
+            Corporate sponsors</br>
+            Open Collective</br>
+            Stack Overflow
+        </span>
+      </div>
     </div>
   </div>
 </html>
