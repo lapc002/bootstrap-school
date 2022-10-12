@@ -1,4 +1,4 @@
-.container {
+.Content-2-main-container {
  display: flex;
  flex-direction: column;
  align-items: center ;
@@ -55,13 +55,8 @@ body {
 .icon1,
 .icon2 {
   margin: 0px 0px 16px;
-<<<<<<< HEAD
   width: 31px;
   height: 31px;
-=======
-  width: 1em;
-  height: 1em;
->>>>>>> c6916082c5ad0b930fd06a33b4f6f7b6c4918081
 }
 
 .section1-part2 {
@@ -85,7 +80,7 @@ body {
 .section2 {
   margin: 0px 220px 48px 220px;
   padding: 0px 24px 0px 24px;
-  text-align: center !important;
+  text-align: center;
 }
 
 .icons-p2 {
@@ -94,21 +89,15 @@ body {
 }
 
 h4.semibold2 {
-<<<<<<< HEAD
   font-size: 18px;
   font-weight: 600;
   color: black;
-=======
-font-size: 18px;
-margin: 0px 0px 8px 0px;
-font-weight: 600;
->>>>>>> c6916082c5ad0b930fd06a33b4f6f7b6c4918081
 }
 
 .section3 {
   font-size: 16px;
   margin: 0px 0px 48px;
-  margin-bottom: 3rem !important;
+  margin-bottom: 3rem;
   margin-top: 0px;
   width: 950px;
 }
@@ -166,13 +155,8 @@ p.link {
   .section1-part2 {
     width: 350px;
   }
-<<<<<<< HEAD
 
   p {
-=======
-  
-  .text-item-in-par {
->>>>>>> c6916082c5ad0b930fd06a33b4f6f7b6c4918081
     font-size: 17px;
     font-weight: 350;
     line-height: 1.5;
