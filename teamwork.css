@@ -33,7 +33,7 @@ body {
   padding: 24px 48px 24px 24px;
 }
 
-.text-item-in-par {
+p.text-item-in-par {
   font-size: 13px;
   font-weight: 350;
   line-height: 1.5;
@@ -155,8 +155,8 @@ p.link {
   .section1-part2 {
     width: 350px;
   }
-
-  p {
+  
+  p.text-item-in-par {
     font-size: 17px;
     font-weight: 350;
     line-height: 1.5;
