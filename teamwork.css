@@ -31,10 +31,12 @@ body {
   padding: 24px 48px 24px 24px;
 }
 
-p {
+p.text-item-in-par {
   font-size: 13px;
   font-weight: 350;
   line-height: 1.5;
+  margin: 0px 0px 16px;
+  padding: 0px 48px 0px 0px;
 }
 
 .highlight,
@@ -71,11 +73,6 @@ p {
 
 .language-html {
   border-bottom: 10px solid white;
-}
-
-p {
-  margin: 0px 0px 16px;
-  padding: 0px 48px 0px 0px;
 }
 
 .section2 {
@@ -156,8 +153,8 @@ p.link {
   .section1-part2 {
     width: 350px;
   }
-
-  p {
+  
+  p.text-item-in-par {
     font-size: 17px;
     font-weight: 350;
     line-height: 1.5;
