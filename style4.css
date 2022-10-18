@@ -10,7 +10,7 @@
     font-size:larger;
     padding-left: 2%;
 }
-h2,.h2-block4 {
+h2.h2-block4 {
   text-align: left;
   margin: 1px;
 }
@@ -54,9 +54,6 @@ h2,.h2-block4 {
   position: relative;
   top: 20px;
   left: 20px;
-  
-  
-
 }
 .triangle-down {
   margin: 3px;
