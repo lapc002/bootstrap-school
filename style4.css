@@ -5,12 +5,17 @@
     display:flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 1300px;
+    margin: auto;
+    font-size:larger;
+    padding-left: 2%;
 }
-.h2-block4 {
+h2.h2-block4 {
   text-align: left;
+  margin: 1px;
 }
 .power {
-  height: 70px;
+  height: 75px;
 }
 .code {
   height: 300px;
@@ -20,6 +25,7 @@
 }
 .arrow-1 {
   display: inline;
+  margin-top:-20px;
 }
 .link-block4 {
   text-decoration: underline #0d6efd;
@@ -27,6 +33,10 @@
 }
 .flex-button {
   display: flex;
+  border: 1px solid Gainsboro;
+  border-radius: 10px;
+  max-width: 580px;
+  height: 80px;
 }
 .dropdown {
   display: flex;
@@ -37,16 +47,21 @@
   color: white;
   border: none;
   border-radius: 10px;
-  padding: 15px 32px;
-  font-size: 16px;
+  padding: 11px 17px;
+  font-size: 15px;
+  height: 40px;
+  width:120px;
+  position: relative;
+  top: 20px;
+  left: 20px;
 }
 .triangle-down {
-  margin: 5px;
+  margin: 3px;
   width: 0;
   height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 6px solid white;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid white;
 }
 .h4-block4{
   color: #0d6efd;
@@ -58,10 +73,11 @@
   align-items: flex-start;
 }
 .content-left {
-  padding-right: 30px;
+  width: 48%;
+  padding: 10px;
 }
 .content-right {
-  max-width: 40%;
+  width: 49%;
 }
 .main {
  display: flex;
@@ -69,19 +85,14 @@
 }
 .block-wrap {
   width: 260px;
-  padding-right: 20px;
+  padding-right: 10px;
 }
 .color {
     color: #6c757d;
 }
 
-@media screen and (max-width: 630px) {
-  .content-left {
-    width: 90%;
-  }
-}
-@media screen and (max-width: 630px) {
-  .main {
+@media screen and (max-width: 930px) {
+  .content-right .content-left{
     width: 100%;
   }
 }
