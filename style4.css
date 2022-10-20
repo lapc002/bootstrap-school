@@ -77,14 +77,14 @@ h2.h2-block4 {
   padding: 10px;
 }
 .content-right {
-  width: 49%;
+  width: 50%;
 }
 .main {
  display: flex;
  flex-wrap: wrap;
 }
 .block-wrap {
-  width: 260px;
+  width: 48%;
   padding-right: 10px;
 }
 .color {
@@ -92,7 +92,8 @@ h2.h2-block4 {
 }
 
 @media screen and (max-width: 930px) {
-  .content-right .content-left{
+  .content-right, .content-left{
     width: 100%;
   }
 }
+
