@@ -21,11 +21,14 @@ body {
 
 .parent-section1 {
   display: flex;
+  width: 75%;
   padding: 0px 0px 48px 0px;
 }
 
 .parent-section4 {
   display: flex;
+  width: 75%;
+
 }
 
 .section1-part1 {
@@ -85,7 +88,7 @@ p.text-item-in-par {
 
 .icons-p2 {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 h4.semibold2 {
@@ -119,15 +122,15 @@ p.general-info {
 }
 
 .section4-p1 {
-  font: 16px;
   margin: 48px 0px 0px;
   padding: 0px 24px;
+  width: 50%;
 }
 
 .section4-p2 {
-  font: 16px;
   margin: 48px 0px 0px;
   padding: 0px 24px;
+  width: 50%;
 }
 
 .chroma,
