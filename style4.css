@@ -96,8 +96,4 @@ h2.h2-block4 {
     width: 100%;
   }
 }
-@media screen and (max-width: 930px) {
-  .content-right, .content-left{
-    width: 100%;
-  }
-}
+
