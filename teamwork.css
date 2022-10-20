@@ -27,6 +27,7 @@ body {
 
 .parent-section4 {
   display: flex;
+  width: 75%;
 
 }
 
@@ -123,11 +124,13 @@ p.general-info {
 .section4-p1 {
   margin: 48px 0px 0px;
   padding: 0px 24px;
+  width: 50%;
 }
 
 .section4-p2 {
   margin: 48px 0px 0px;
   padding: 0px 24px;
+  width: 50%;
 }
 
 .chroma,
